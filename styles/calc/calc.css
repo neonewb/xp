@@ -1,0 +1,22 @@
+.xp-calc {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 260px;
+	height: 260px;
+	overflow: hidden;
+	border-radius: 8px 8px 0px 0px;
+	background: #004CFF;
+	box-shadow: inset 2px 2px 2px #0732D9, inset -2px -2px 2px #00138C;
+}
+
+.xp-calc::before {
+	position: absolute;
+	bottom: 3px;
+	left: 1px;
+	content: "";
+	width: 1px;
+	height: 228px;
+	background: #166AEE;
+}

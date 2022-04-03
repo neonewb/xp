@@ -1,0 +1,16 @@
+.page {
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+}
+
+.page__background {
+	width: 100%;
+}
+
+@media (max-width: 1440px) {
+	.page__background {   
+		height: 100%;
+		width: auto;
+	}
+}

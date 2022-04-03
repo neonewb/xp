@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/common.css" />
+        <link rel="stylesheet" href="../styles/page.css" />
+        <link rel="stylesheet" href="../styles/calc/calc.css" />
+        <link rel="stylesheet" href="../styles/calc/header.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<title>XP-calc</title>
+	</head>
+	<body>
+		<!-- BEM - block, element, modificator -->
+		<div class="page">
+			<img
+				class="page__background"
+				src="./assets/xp-background.jpg"
+				alt="xp-background"
+			/>
+			<div class="xp-calc">
+				<div class="xp-calc-header">
+					<div class="xp-calc-header__left">
+						<img src="assets/icons/calculator.svg" class="xp-calc-header__icon"></img>
+						
+						<div class="xp-calc-header__title">Calculator</div>
+					</div>
+
+					<div class="xp-calc-header-buttons">
+						<button
+							class="xp-calc-header__button xp-calc-header__button_collapse"
+						>
+							<div class="xp-calc-header__button_collapse-front"></div>
+							<div class="xp-calc-header__button_collapse-back"></div>
+							<div class="xp-calc-header__button_collapse-stick"></div>
+						</button>
+
+						<button
+							disabled
+							class="xp-calc-header__button xp-calc-header__button_full-screen"
+							>
+                        	<div class="xp-calc-header__button_full-screen-front"></div>
+                        	<div class="xp-calc-header__button_full-screen-back"></div>
+                        	<div class="xp-calc-header__button_full-screen-window"></div>
+                        </button>
+						
+
+						<button class="xp-calc-header__button xp-calc-header__button_close">
+							<div class="xp-calc-header__button_close-front"></div>
+                            <div class="xp-calc-header__button_close-back"></div>
+                            <img src='./assets/icons/close.svg' class="xp-calc-header__button_close-x"></img>
+						</button>
+					</div>
+				</div>
+
+				<div class="xp-calc-navigation">
+					<div class="xp-calc-navigation__item">Edit</div>
+					<div class="xp-calc-navigation__item">View</div>
+					<div class="xp-calc-navigation__item">Help</div>
+				</div>
+
+				<div class="xp-calc-input">
+					<input class="xp-calc-input__input" type="number" />
+				</div>
+
+				<div class="xp-calc-workspace">
+					<div class="xp-calc-workspace__clear-buttons">
+						<button class="xp-calc-workspace__button_clear"></button>
+						<button class="xp-calc-workspace__button_clear"></button>
+						<button class="xp-calc-workspace__button_clear"></button>
+					</div>
+
+					<div class="xp-calc-workspace__memory-buttons">
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+					</div>
+
+					<div class="xp-calc-workspace__main-buttons">
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+						<button class="xp-calc-workspace__button"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
