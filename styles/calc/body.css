@@ -1,0 +1,9 @@
+.xp-calc__body {
+	--slice: 3px;
+
+	background-color: var(--color-background-body);
+	height: calc(var(--calc-height) - var(--calc-header-height) - var(--slice));
+	margin-left: var(--slice);
+	margin-right: var(--slice);
+	padding: 0 var(--calc-left-padding);
+}

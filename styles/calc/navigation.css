@@ -1,0 +1,11 @@
+.xp-calc-navigation {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	height: 20px;
+	font-size: var(--calc-font-size);
+}
+
+.xp-calc-navigation__item {
+	font-size: 11px;
+}

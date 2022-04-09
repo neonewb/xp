@@ -1,0 +1,39 @@
+.xp-calc-input {
+	background: white;
+	border: 2px solid #7F9DB9;
+	border-radius: 2px
+}
+
+.xp-calc-input:focus {
+	/* ToDo добавить смену цвета бордера на фокус инпута */
+	border: 2px solid #657b90;
+}
+
+.xp-calc-input__previous {
+	font-size: var(--calc-font-size);
+	height: calc(var(--calc-input-height) * 2);
+    text-align: right;
+	width: 100%;
+	padding-right: 2px;
+	padding-top: 6px;
+}
+
+.xp-calc-input__input {
+	width: 100%;
+	height: calc(var(--calc-input-height) * 2);
+    text-align: right;
+
+	padding-right: 2px;
+	font-size: var(--calc-font-size);
+	border: none;
+}
+
+.xp-calc-input__input:focus {
+	outline: none;
+}
+
+.xp-calc-input__input::-webkit-outer-spin-button,
+.xp-calc-input__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

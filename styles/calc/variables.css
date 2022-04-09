@@ -1,0 +1,15 @@
+:root{
+	/* colors */
+	--color-red: #FF0000;
+	--color-red: #0000FF;
+	--color-background-body: #ECE9D8;
+	
+	/* sizes */
+	--calc-height: 260px;
+	--calc-header-height: 29px;
+	--calc-input-height: 10px;
+	--calc-left-padding: 10px;
+
+	/* fonts */
+	--calc-font-size: 10px;
+}
