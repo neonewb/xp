@@ -14,18 +14,19 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<script defer type="module" src="./dist/dnd-mouse.js"></script>
 		<title>XP-calc</title>
 	</head>
 	<body>
 		<!-- BEM - block, element, modificator -->
-		<div class="page">
+		<div class="page dropZone">
 			<img
 				class="page__background"
 				src="./assets/xp-background.jpg"
 				alt="xp-background"
 			/>
-			<div class="xp-calc">
-				<div class="xp-calc-header">
+			<div class="xp-calc draggable" id="draggable">
+				<div class="xp-calc-header dragTrigger">
 					<div class="xp-calc-header__left">
 						<img src="assets/icons/calculator.svg" class="xp-calc-header__icon"></img>
 						

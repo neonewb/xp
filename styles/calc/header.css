@@ -4,6 +4,8 @@
 }
 
 .xp-calc-header {
+	cursor: move;
+	user-select: none;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

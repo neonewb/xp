@@ -6,6 +6,9 @@
 
 .page__background {
 	width: 100%;
+	user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
 }
 
 @media (max-width: 1440px) {
