@@ -1,7 +1,7 @@
 {
   "name": "xp",
   "version": "1.0.0",
-  "description": "Windows XP clone",
+  "description": "Windows XP calc",
   "main": "index.js",
   "type": "module",
   "scripts": {

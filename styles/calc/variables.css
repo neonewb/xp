@@ -1,15 +1,19 @@
 :root{
 	/* colors */
 	--color-red: #FF0000;
-	--color-red: #0000FF;
+	--color-blue: #0000FF;
+	--color-border: #003C74;
+	--color-border-active: #003c74c3;
 	--color-background-body: #ECE9D8;
 	
 	/* sizes */
-	--calc-height: 260px;
+	--calc-height: 290px;
+	--calc-width: 260px;
 	--calc-header-height: 29px;
 	--calc-input-height: 10px;
 	--calc-left-padding: 10px;
+	--slice: 3px;
 
 	/* fonts */
-	--calc-font-size: 10px;
+	--calc-font-size: 12px;
 }

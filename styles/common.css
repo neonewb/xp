@@ -11,8 +11,13 @@ body {
 *,
 *::after,
 *::before {
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'novem';
 	box-sizing: inherit;
-  	padding: 0;
-  	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'novem';
+	src: url('../assets/fonts/novem.ttf') format('truetype');
 }

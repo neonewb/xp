@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="../styles/calc/body.css" />
 		<link rel="stylesheet" href="../styles/calc/variables.css" />
 		<link rel="stylesheet" href="../styles/calc/input.css" />
+		<link rel="stylesheet" href="../styles/calc/workspace.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -50,7 +51,6 @@
 							<div class="xp-calc-header__button_full-screen-back"></div>
 							<div class="xp-calc-header__button_full-screen-window"></div>
 						</button>
-						
 
 						<button class="xp-calc-header__button xp-calc-header__button_close">
 							<div class="xp-calc-header__button_close-front"></div>
@@ -69,48 +69,49 @@
 					</div>
 
 					<div class="xp-calc-input">
-						<div class="xp-calc-input__previous">1312312312312</div>
+						<div class="xp-calc-input__previous"></div>
 						<input class="xp-calc-input__input" type="number" align="right" />
 					</div>
 
 					<div class="xp-calc-workspace">
 						<div class="xp-calc-workspace__clear-buttons">
-							<button class="xp-calc-workspace__button_clear">C</button>
-							<button class="xp-calc-workspace__button_clear">C</button>
-							<button class="xp-calc-workspace__button_clear">C</button>
+							<button class="xp-calc-workspace__button xp-calc-workspace__button_clear xp-calc-workspace__button_red">Backspace</button>
+							<button class="xp-calc-workspace__button xp-calc-workspace__button_clear xp-calc-workspace__button_red">CE</button>
+							<button class="xp-calc-workspace__button xp-calc-workspace__button_clear xp-calc-workspace__button_red">C</button>
 						</div>
 
-						<div class="xp-calc-workspace__memory-buttons">
-							<button class="xp-calc-workspace__button">MC</button>
-							<button class="xp-calc-workspace__button">MC</button>
-							<button class="xp-calc-workspace__button">MC</button>
-							<button class="xp-calc-workspace__button">MC</button>
-						</div>
-
-						<div class="xp-calc-workspace__main-buttons">
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
-							<button class="xp-calc-workspace__button">1</button>
+						<div class="xp-calc-workspace__container">
+							<div class="xp-calc-workspace__memory-buttons">
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">MC</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">MR</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">MS</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">M+</button>
+							</div>
+						
+							<div class="xp-calc-workspace__main-buttons">
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">7</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">8</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">9</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">/</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">sq</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">4</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">5</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">6</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">*</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">%</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">1</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">2</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">3</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">-</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">1/x</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">0</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">+/-</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_blue">.</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">+</button>
+								<button class="xp-calc-workspace__button xp-calc-workspace__button_red">=</button>
+							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
