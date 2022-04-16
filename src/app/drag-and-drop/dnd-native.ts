@@ -1,4 +1,4 @@
-class DragAndDropNative {
+export class DragAndDropNative {
 	draggable: HTMLDivElement;
 	dragTrigger: HTMLDivElement;
 	dropZone: HTMLDivElement;
@@ -47,5 +47,3 @@ class DragAndDropNative {
 		this.draggable.setAttribute('draggable', 'false')
 	}
 }
-
-new DragAndDropNative()

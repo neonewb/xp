@@ -1,4 +1,4 @@
-class DragAndDropMouse {
+export class DragAndDropMouse {
 	draggable: HTMLDivElement;
 	dragTrigger: HTMLDivElement;
 	mouseShift: { x: number, y: number } = { x: 0, y: 0 }
@@ -33,5 +33,3 @@ class DragAndDropMouse {
 		this.mouseShift = { x: 0, y: 0 }
 	}
 }
-
-new DragAndDropMouse()
