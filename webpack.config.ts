@@ -1,8 +1,10 @@
 import path from 'path'
+import {Configuration} from 'webpack';
 import HtmlPlugin from 'html-webpack-plugin'
 import CopyPlugin from 'copy-webpack-plugin'
+import 'webpack-dev-server';
 
-export default {
+const config: Configuration = {
 	entry: {
 		app: path.resolve('./src/app/index.ts')
 	},
@@ -61,3 +63,5 @@ export default {
 		})
 	]
 }
+
+export default config
